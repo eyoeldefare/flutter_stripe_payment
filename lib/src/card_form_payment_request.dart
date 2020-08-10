@@ -14,7 +14,7 @@ class CardFormPaymentRequest {
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
-    if (this.requiredBillingAddressFields != null) if (this.requiredBillingAddressFields != null)
+    if (this.requiredBillingAddressFields != null)
       data['requiredBillingAddressFields'] = this.requiredBillingAddressFields;
     if (this.prefilledInformation != null) {
       data['prefilledInformation'] = this.prefilledInformation.toJson();
