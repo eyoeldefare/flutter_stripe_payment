@@ -1,7 +1,6 @@
 package de.jonasbark.stripepayment
 
-//import android.app.DialogFragment --> deprecated
-import android.support.v4.app.DialogFragment;
+import android.app.DialogFragment
 import android.content.DialogInterface
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
